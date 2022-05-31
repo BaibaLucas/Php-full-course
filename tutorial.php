@@ -18,5 +18,17 @@
 // export var
 // echo var_dump($laptop_brand);
 
+// define("laptops", ["Hp", "Lenovo and", "Asus"]);
+// echo laptops[2];
+
+$var = 5;
+
+if($var > 7) {
+    echo $var;
+}
+
+else { 
+    echo "The condition did not meet";
+} 
 
 ?>
