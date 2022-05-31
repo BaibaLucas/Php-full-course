@@ -21,13 +21,15 @@
 // define("laptops", ["Hp", "Lenovo and", "Asus"]);
 // echo laptops[2];
 
-$var = 5;
+$var = 4;
 
-if($var > 7) {
-    echo $var;
-}
-
-else { 
+if ($var % 2 == 0 && $var % 3 == 0) {
+    echo "Divisible by both";
+} elseif ($var % 2 == 0) {
+    echo "Divisible by 2";
+} elseif ($var % 3 == 0) {
+    echo "Divisible by 3";
+} else { 
     echo "The condition did not meet";
 } 
 
