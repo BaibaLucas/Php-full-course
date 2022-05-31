@@ -5,12 +5,18 @@
 
 /** How to create variable with PhP "$var = value" **/ 
 
-$str = "Hi it's my first page with PhP";
-$num = 5;
-$float = 7.6;
+// $str = "Hi it's my first page with PhP";
+// $num = 5;
+// $float = 7.6;
 
-echo "<h1>" . $str . "<h1>";
-echo "<h2>" . $num . "<h2>";
-echo "<h3>" . $float . "<h3>";
+// echo "<h1>" . $str . "<h1>";
+// echo "<h2>" . $num . "<h2>";
+// echo "<h3>" . $float . "<h3>";
+
+/** Create Array */
+// $laptop_brand = array('HP', "Lenovo", "Asus", "Dell");
+// export var
+// echo var_dump($laptop_brand);
+
 
 ?>
