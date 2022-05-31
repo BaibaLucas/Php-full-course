@@ -52,11 +52,16 @@ $level = 20;
 //         echo "Invalid Input";
 // }
 
-// Loops
-$var = 2;
-while ($var <=10) {
-    echo "Number: $var <br>";
+/** Loops */
+// $var = 2;
+// while ($var <=10) {
+//     echo "Number: $var <br>";
+//     $var++;
+// };
+$var = 11;
+do {
+    echo "Number: $var <br";
     $var++;
-};
+} while ($var <=10)
 
 ?>
