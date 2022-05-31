@@ -21,16 +21,35 @@
 // define("laptops", ["Hp", "Lenovo and", "Asus"]);
 // echo laptops[2];
 
-$var = 4;
+/** Multiples conditions */
+// $var = 4;
+// if ($var % 2 == 0 && $var % 3 == 0) {
+//     echo "Divisible by both";
+// } elseif ($var % 2 == 0) {
+//     echo "Divisible by 2";
+// } elseif ($var % 3 == 0) {
+//     echo "Divisible by 3";
+// } else { 
+//     echo "The condition did not meet";
+// } 
 
-if ($var % 2 == 0 && $var % 3 == 0) {
-    echo "Divisible by both";
-} elseif ($var % 2 == 0) {
-    echo "Divisible by 2";
-} elseif ($var % 3 == 0) {
-    echo "Divisible by 3";
-} else { 
-    echo "The condition did not meet";
-} 
+/** Switch conditions */
+$level = 20;
+switch ($level) {
+    case 1:
+        echo "You are playing at EASY level";
+    break;
+    case 2:
+        echo "You are playing at MODERATE level";
+    break;
+    case 3:
+        echo "You are playing at HARD level";
+    break;
+    case 4:
+        echo "You are playing at EXTREME level";
+    break;
+    default;
+        echo "Invalid Input";
+}
 
 ?>
