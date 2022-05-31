@@ -35,21 +35,28 @@
 
 /** Switch conditions */
 $level = 20;
-switch ($level) {
-    case 1:
-        echo "You are playing at EASY level";
-    break;
-    case 2:
-        echo "You are playing at MODERATE level";
-    break;
-    case 3:
-        echo "You are playing at HARD level";
-    break;
-    case 4:
-        echo "You are playing at EXTREME level";
-    break;
-    default;
-        echo "Invalid Input";
-}
+// switch ($level) {
+//     case 1:
+//         echo "You are playing at EASY level";
+//     break;
+//     case 2:
+//         echo "You are playing at MODERATE level";
+//     break;
+//     case 3:
+//         echo "You are playing at HARD level";
+//     break;
+//     case 4:
+//         echo "You are playing at EXTREME level";
+//     break;
+//     default;
+//         echo "Invalid Input";
+// }
+
+// Loops
+$var = 2;
+while ($var <=10) {
+    echo "Number: $var <br>";
+    $var++;
+};
 
 ?>
