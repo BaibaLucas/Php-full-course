@@ -14,6 +14,7 @@
 // echo "<h3>" . $float . "<h3>";
 
 /** Create Array */
+
 // $laptop_brand = array('HP', "Lenovo", "Asus", "Dell");
 // export var
 // echo var_dump($laptop_brand);
@@ -22,6 +23,7 @@
 // echo laptops[2];
 
 /** Multiples conditions */
+
 // $var = 4;
 // if ($var % 2 == 0 && $var % 3 == 0) {
 //     echo "Divisible by both";
@@ -34,7 +36,8 @@
 // } 
 
 /** Switch conditions */
-$level = 20;
+
+// $level = 20;
 // switch ($level) {
 //     case 1:
 //         echo "You are playing at EASY level";
@@ -53,15 +56,21 @@ $level = 20;
 // }
 
 /** Loops */
+
 // $var = 2;
 // while ($var <=10) {
 //     echo "Number: $var <br>";
 //     $var++;
 // };
-$var = 11;
-do {
-    echo "Number: $var <br";
-    $var++;
-} while ($var <=10)
+
+// $var = 11;
+// do {
+//     echo "Number: $var <br";
+//     $var++;
+// } while ($var <=10)
+
+for ($var = 1; $var <= 6; $var++) {
+    echo "Number: $var <br>";
+}
 
 ?>
