@@ -69,8 +69,24 @@
 //     $var++;
 // } while ($var <=10)
 
-for ($var = 1; $var <= 6; $var++) {
-    echo "Number: $var <br>";
+// for ($var = 1; $var <= 6; $var++) {
+//     echo "Number: $var <br>";
+// }
+
+/** function */
+function fizzbuzz() {
+    for ($var = 1; $var <= 100; $var++) {
+        if ($var % 3 == 0 && $var % 5 == 0) {
+            echo "Fizzbuzz <br>";
+        } elseif ($var % 3 == 0) {
+            echo "Fizz <br>";
+        } elseif ($var % 5 == 0) {
+            echo "Buzz <br>";
+        } else { 
+            echo "$var <br>";
+        }
+    }
 }
+fizzbuzz();
 
 ?>
