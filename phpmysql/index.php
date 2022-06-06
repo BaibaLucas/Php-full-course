@@ -24,7 +24,7 @@
             <label for="bgroup"> Blood Group: </label> <br>
             <input type="text" name="bgroup" id="bgroup" required/> <br> <br>
             
-            <input type="subit" name="submit" id="submit" />
+            <input type="submit" name="submit" id="submit" />
         </form>
     </body>
 
