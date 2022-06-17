@@ -25,18 +25,18 @@
           Categories
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Nature</a>
+          <a class="dropdown-item" href="#nature">Nature</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Architecture</a>
+          <a class="dropdown-item" href="#architecture">Architecture</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Travers</a>
+          <a class="dropdown-item" href="#travel">Travel</a>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="#contact">Contact</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#about">About</a>
       </li>
     </ul>
   </div>
@@ -77,7 +77,7 @@
   </a>
 </div>
 
-
+    <a id="nature">
     <section class="my-4">
         <div class="py-4">
             <h2 class="text-center">Nature</h2>
@@ -96,7 +96,8 @@
             </div>
         </div>
     </section>
-
+    </a>
+    <a id="architecture">
     <section class="my-4">
         <div class="py-4">
             <h2 class="text-center">Architecture</h2>
@@ -115,7 +116,8 @@
             </div>
         </div>
     </section>
-
+    </a>
+    <a id="travel">
     <section class="my-4">
         <div class="py-4">
             <h2 class="text-center">Travel</h2>
@@ -134,6 +136,45 @@
             </div>
         </div>
     </section>
+    </a>
+    <a id="contact">
+    <section class="my-4">
+        <div class="py-4">
+            <h2 class="text-center">Contact Us</h2>
+        </div>
+
+        <div class="w-50 m-auto">
+            <form action="about.php" method="post">
+                <div class="form-group">
+                    <label>Name:</label>
+                    <input type="text" name="name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Email:</label>
+                    <input type="email" name="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Number:</label>
+                    <input type="text" name="number" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-success">Submit</button>
+            </form>
+        </div>
+    </section>
+    </a>
+    <a id="about">
+    <section class="my-4">
+        <div class="py-4">
+            <h2 class="text-center">About</h2>
+        </div>
+        <div class="container-fluid">
+            <h3 class="text-center">Kals</h3> <br>
+            <p class="text-center"><b>I am passionate photographer interested in working in Architecture, Nature and Travel Photography.
+                I am full time freelancer with an experience of 1 years.
+            </b></p>
+        </div>
+    </section>
+    </a>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
